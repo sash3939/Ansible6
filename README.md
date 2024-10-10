@@ -239,7 +239,9 @@ if __name__ == '__main__':
 
 [tar.gz](https://github.com/sash3939/my_own_collection/blob/main/test_collection/my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz)
 
-[Шаг 4](<img width="511" alt="playload" src="https://github.com/user-attachments/assets/1a1abd79-d319-469e-8974-41dfb7708103">
+[Шаг 4]
+
+<img width="511" alt="playload" src="https://github.com/user-attachments/assets/1a1abd79-d319-469e-8974-41dfb7708103">
 
 <img width="838" alt="Local try" src="https://github.com/user-attachments/assets/9ea455ac-b63d-4841-a3f5-4e5fa119c54d">
 
