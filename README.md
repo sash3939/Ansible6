@@ -163,6 +163,10 @@ if __name__ == '__main__':
 
 **Шаг 3.** Заполните файл в соответствии с требованиями Ansible так, чтобы он выполнял основную задачу: module должен создавать текстовый файл на удалённом хосте по пути, определённом в параметре `path`, с содержимым, определённым в параметре `content`.
 
+<img width="568" alt="my_own_module" src="https://github.com/user-attachments/assets/453dc6f9-0c01-426b-aeb2-1ea49662a91f">
+
+[my_own_module](https://github.com/sash3939/my_own_collection/blob/main/my_own_namespace/yandex_cloud_elk/plugins/modules/my_own_module.py)
+
 **Шаг 4.** Проверьте module на исполняемость локально.
 
 **Шаг 5.** Напишите single task playbook и используйте module в нём.
