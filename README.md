@@ -168,18 +168,38 @@ if __name__ == '__main__':
 [my_own_module](https://github.com/sash3939/my_own_collection/blob/main/my_own_namespace/yandex_cloud_elk/plugins/modules/my_own_module.py)
 
 **Шаг 4.** Проверьте module на исполняемость локально.
+****1. Прежде чем проверять локально, нужно модуль (my_own_module) положить в папку ansible/lib/ansible/modules/
+****2. Необходимо создать, например, playload.json в папке ansible и наполнить содержимым
+
+<img width="511" alt="playload" src="https://github.com/user-attachments/assets/1a1abd79-d319-469e-8974-41dfb7708103">
+
+<img width="838" alt="Local try" src="https://github.com/user-attachments/assets/9ea455ac-b63d-4841-a3f5-4e5fa119c54d">
+
+<img width="367" alt="result" src="https://github.com/user-attachments/assets/61997f83-2138-4015-a0b7-20501a5f8b76">
 
 **Шаг 5.** Напишите single task playbook и используйте module в нём.
 
+<img width="470" alt="task" src="https://github.com/user-attachments/assets/3b866f6e-4274-400b-985c-4e3c2f77cb40">
+
 **Шаг 6.** Проверьте через playbook на идемпотентность.
+
+<img width="809" alt="playbook task" src="https://github.com/user-attachments/assets/8d8153a5-71a9-4cd5-844d-13c1ef2fcd0c">
 
 **Шаг 7.** Выйдите из виртуального окружения.
 
+**deactivate**
+
 **Шаг 8.** Инициализируйте новую collection: `ansible-galaxy collection init my_own_namespace.yandex_cloud_elk`.
+
+<img width="615" alt="create my_own_namespace" src="https://github.com/user-attachments/assets/871c4a9a-9990-43f1-96c7-917d83bf8fbe">
 
 **Шаг 9.** В эту collection перенесите свой module в соответствующую директорию.
 
+<img width="783" alt="copy module to collection" src="https://github.com/user-attachments/assets/d186a518-de78-49db-8f27-a325d83c2759">
+
 **Шаг 10.** Single task playbook преобразуйте в single task role и перенесите в collection. У role должны быть default всех параметров module.
+
+<img width="701" alt="single task role" src="https://github.com/user-attachments/assets/b7c169e2-2a95-4adb-a712-6847e8226b4c">
 
 **Шаг 11.** Создайте playbook для использования этой role.
 
