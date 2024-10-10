@@ -168,7 +168,9 @@ if __name__ == '__main__':
 [my_own_module](https://github.com/sash3939/my_own_collection/blob/main/my_own_namespace/yandex_cloud_elk/plugins/modules/my_own_module.py)
 
 **Шаг 4.** Проверьте module на исполняемость локально.
+
 ****1. Прежде чем проверять локально, нужно модуль (my_own_module) положить в папку ansible/lib/ansible/modules/
+
 ****2. Необходимо создать, например, playload.json в папке ansible и наполнить содержимым
 
 <img width="511" alt="playload" src="https://github.com/user-attachments/assets/1a1abd79-d319-469e-8974-41dfb7708103">
