@@ -205,7 +205,17 @@ if __name__ == '__main__':
 
 **Шаг 11.** Создайте playbook для использования этой role.
 
+<img width="632" alt="role-defaults" src="https://github.com/user-attachments/assets/1f5c4e28-5607-47ca-ad54-dd076e7773ef">
+
+<img width="613" alt="meta-roles" src="https://github.com/user-attachments/assets/599118de-ec2d-47f1-aaca-62885c867efd">
+
+<img width="620" alt="role-tasks" src="https://github.com/user-attachments/assets/7f333811-bdf2-49cf-ba21-4b7941a2fd9e">
+
 **Шаг 12.** Заполните всю документацию по collection, выложите в свой репозиторий, поставьте тег `1.0.0` на этот коммит.
+
+[my_own_collection](https://github.com/sash3939/my_own_collection/tree/main)
+
+[my_own_collection-tag](https://github.com/sash3939/my_own_collection/releases/tag/1.0.0)
 
 **Шаг 13.** Создайте .tar.gz этой collection: `ansible-galaxy collection build` в корневой директории collection.
 
