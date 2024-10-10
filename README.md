@@ -239,13 +239,26 @@ if __name__ == '__main__':
 
 [tar.gz](https://github.com/sash3939/my_own_collection/blob/main/test_collection/my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz)
 
-[Шаг 4]
+**[Шаг 4]**
 
 <img width="511" alt="playload" src="https://github.com/user-attachments/assets/1a1abd79-d319-469e-8974-41dfb7708103">
 
 <img width="838" alt="Local try" src="https://github.com/user-attachments/assets/9ea455ac-b63d-4841-a3f5-4e5fa119c54d">
 
 <img width="367" alt="result" src="https://github.com/user-attachments/assets/61997f83-2138-4015-a0b7-20501a5f8b76">)
+
+**[Шаг 6]**
+
+<img width="809" alt="playbook task" src="https://github.com/user-attachments/assets/8d8153a5-71a9-4cd5-844d-13c1ef2fcd0c">
+
+**[Шаг 15]**
+
+<img width="760" alt="installed collection from local archive" src="https://github.com/user-attachments/assets/ec8f5be9-331b-40d7-85cb-28b81f45f8d9">
+
+**[Шаг 16]**
+
+<img width="391" alt="playbook local ready" src="https://github.com/user-attachments/assets/ee143a41-e9f9-46fc-ace6-839ceb9c92ba">
+
 ## Необязательная часть
 
 1. Реализуйте свой модуль для создания хостов в Yandex Cloud.
