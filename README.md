@@ -219,14 +219,31 @@ if __name__ == '__main__':
 
 **Шаг 13.** Создайте .tar.gz этой collection: `ansible-galaxy collection build` в корневой директории collection.
 
+<img width="834" alt="tar gz collection" src="https://github.com/user-attachments/assets/a88b11e8-0ca5-4378-85c1-4559535d1601">
+
 **Шаг 14.** Создайте ещё одну директорию любого наименования, перенесите туда single task playbook и архив c collection.
+
+<img width="484" alt="test_collection" src="https://github.com/user-attachments/assets/bf4b1523-5728-4661-b30d-c9db3319f588">
 
 **Шаг 15.** Установите collection из локального архива: `ansible-galaxy collection install <archivename>.tar.gz`.
 
+<img width="760" alt="installed collection from local archive" src="https://github.com/user-attachments/assets/ec8f5be9-331b-40d7-85cb-28b81f45f8d9">
+
 **Шаг 16.** Запустите playbook, убедитесь, что он работает.
+
+<img width="391" alt="playbook local ready" src="https://github.com/user-attachments/assets/ee143a41-e9f9-46fc-ace6-839ceb9c92ba">
 
 **Шаг 17.** В ответ необходимо прислать ссылки на collection и tar.gz архив, а также скриншоты выполнения пунктов 4, 6, 15 и 16.
 
+[collection](https://github.com/sash3939/my_own_collection/tree/main/my_own_namespace/yandex_cloud_elk)
+
+[tar.gz](https://github.com/sash3939/my_own_collection/blob/main/test_collection/my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz)
+
+[Шаг 4](<img width="511" alt="playload" src="https://github.com/user-attachments/assets/1a1abd79-d319-469e-8974-41dfb7708103">
+
+<img width="838" alt="Local try" src="https://github.com/user-attachments/assets/9ea455ac-b63d-4841-a3f5-4e5fa119c54d">
+
+<img width="367" alt="result" src="https://github.com/user-attachments/assets/61997f83-2138-4015-a0b7-20501a5f8b76">)
 ## Необязательная часть
 
 1. Реализуйте свой модуль для создания хостов в Yandex Cloud.
